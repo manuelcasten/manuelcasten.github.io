@@ -1,0 +1,139 @@
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+
+body {background:#A5CDDF;
+font-family:Helvetica;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(45deg, #796aa138, #685e8538), url("../assets/Fondo-reviews.jpg");
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	padding: 50px;
+	display:flex;
+	justify-content: space-between;
+	align-ites: center;
+}
+h1.logo{
+  display:block;
+  width: 300px;
+  height: 200px;
+  background: url("../assets/logo.png.png") 0 0 no-repeat;
+	resize: both;
+	text-indent: -1000px;}
+nav ul{
+	display:flex;}
+nav ul li{
+	margin-left: 15px;
+	list-style: none;
+	}
+nav ul li a{
+	font-size:20px;
+	color: #ECECEC;
+	text-decoration: none;
+	}
+nav ul li a:hover{
+	text-decoration: underline;
+	color:#E3EA49;
+	letter-spacing:normal;
+	transform: translatey(-3px)
+}
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  display:
+  height:1vh;}
+
+
+.rev-section{
+  margin:auto;
+  padding: 0 1rem;
+  max-width: 1100px;
+  text-align: center;
+	border-top-width: thin
+}
+.title{
+  font-family: lato;
+	font-size: 53px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: .5rem;
+font-weight:100;
+}
+.note{
+  font-size: 1.1rem;
+  color: rgb(150, 150, 150);
+  font-style: italic;
+    color: forestgreen;
+  font-family: lato;
+}
+.reviews{
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.review{
+  margin: 0 1rem;
+  min-width: 300px;
+  flex: 1;
+}
+.head-review{
+  margin: 1.75rem auto;
+  width: 150px;
+  height: 150px;
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
+}
+.body-review{
+  background-color: rgb(238, 238, 238);
+  padding: 2.5rem;
+  box-shadow: 2px 2px 10px 3px rgb(225, 225, 225);
+}
+.name-review{
+  font-size:13px;
+  color: rgb(50, 50, 50);
+font-family: lato;
+}
+.place-review{
+  color: red;
+  font-style: italic;
+	font-family: lato;
+	font-size:12px;
+}
+.rating{
+  color: rgb(253, 180, 42);
+  margin: 1rem 0;
+}
+.desc-review{
+  letter-spacing: 1px;
+  color: slategray;
+	font-size: 12px;
+	font-family:lato;
+		font-style:normal;
+}
+@media (max-width: 678px){
+  .review{
+    margin-top: 1.5rem;
+  }
+}

@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+
+body {background:#A5CDDF;
+font-family:Helvetica;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(45deg, #796aa138, #685e8538), url("../assets/Giflanding.gif");
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	padding: 50px;
+	display:flex;
+	justify-content: space-between;
+	align-ites: center;
+}
+h1.logo{
+  display:block;
+  width: 300px;
+  height: 200px;
+  background: url("../assets/logo.png.png") 0 0 no-repeat;
+	resize: both;
+	text-indent: -1000px;}
+nav ul{
+	display:flex;}
+nav ul li{
+	margin-left: 15px;
+	list-style: none;
+	}
+nav ul li a{
+	font-size:20px;
+	color: #ECECEC;
+	text-decoration: none;
+	}
+nav ul li a:hover{
+	text-decoration: underline;
+	color:#E3EA49;
+	letter-spacing:normal;
+	transform: translatey(-3px)
+}
+.header-cont {
+	max-width: 600px;
+	height: 30%;
+	margin:auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	}
+.header-cont h2{
+	font-size: 70px;
+	color:white;
+	text-transform: uppercase;
+	font-weight: 200;
+	font-family:Asbigan;
+	line-height:70px;
+	}
+.header-cont p{
+	font-size: 30px;
+	color:white;
+	text-transform: uppercase;
+	font-weight: 200;
+	font-family:lato;
+	line-height:32px;
+	letter-spacing:2px;}
+.header-cont a{
+	display:inline-block;
+	font-size: 20px;
+	font-family:lato;
+    margin:23px;
+	background:white;
+	padding:17px 30px;
+	border-radius:20px;
+	text-decoration: none;
+	color:black;
+	letter-spacing:1px;
+	font-weight: 900;
+}
+.header-cont a:hover{
+	transform: translatey(-3px)
+}
