@@ -1,7 +1,7 @@
 {
   "captionation": {
-    "version": "4.2.1",
-    "notes": "panel en inglés o español (botones ES / EN)",
+    "version": "4.2.2",
+    "notes": "ya puedes pegar códigos de color (#HEX, RGB o CMYK) del manual de marca",
     "url": "https://manuelcasten.github.io/captionation.html#install"
   }
 }
