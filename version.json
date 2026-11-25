@@ -5,10 +5,10 @@
     "url": "https://manuelcasten.github.io/captionation.html#install"
   },
   "studio": {
-    "version": "1.1.1",
-    "notes": "doble clic en un subtítulo para editarlo",
+    "version": "1.2.0",
+    "notes": "exporta solo una parte (entrada/salida) y trabaja varios videos en pestañas que se guardan",
     "url": "https://manuelcasten.github.io/studio.html",
-    "exe": "https://github.com/manuelcasten/captionation-studio/releases/download/v1.1.1/Instalador-Captionation-Studio.exe",
-    "sha256": "ba75eab0619f7986d319788ea4e347330efafce4a62758fe0186e0b7a12ae4e4"
+    "exe": "https://github.com/manuelcasten/captionation-studio/releases/download/v1.2.0/Instalador-Captionation-Studio.exe",
+    "sha256": "9fde11c7b8f80632eb9a94c853edb455ff9f3c6d11f2afe6b9ff43699e29174f"
   }
 }
