@@ -1,7 +1,14 @@
 {
   "captionation": {
-    "version": "4.2.2",
-    "notes": "ya puedes pegar códigos de color (#HEX, RGB o CMYK) del manual de marca",
+    "version": "4.3.0",
+    "notes": "fija tus fuentes, cambia de marca con un clic y pega códigos de color en el nuevo selector",
     "url": "https://manuelcasten.github.io/captionation.html#install"
+  },
+  "studio": {
+    "version": "1.1.1",
+    "notes": "doble clic en un subtítulo para editarlo",
+    "url": "https://manuelcasten.github.io/studio.html",
+    "exe": "https://github.com/manuelcasten/captionation-studio/releases/download/v1.1.1/Instalador-Captionation-Studio.exe",
+    "sha256": "ba75eab0619f7986d319788ea4e347330efafce4a62758fe0186e0b7a12ae4e4"
   }
 }
